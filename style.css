@@ -1,0 +1,111 @@
+:root {
+  --blau1: #10a4e4; /* blaue Farbe */
+  --blau2: #48cce1; /* grüne Farbe */
+  --verlauf1: blue; /* blaue Farbe */
+  --verlauf2: violet; /* blaue Farbe */
+  --pixelsize: 64px; /* grüne Farbe */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, var(--blau1), var(--blau2));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes gradient {
+    0%   { background: var(--blau1); }
+    50%  { background: var(--blau2); }
+    100% { background: var(--blau1); }
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.button-main {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.button-settings {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.button-back {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.button-back a , .button-settings a{
+    text-decoration: none;
+    color: #333;
+}
+
+.button-active {
+    background-color: yellowgreen;
+    color: #f4f4f4;
+}
+
+@media screen and (max-width: 600px) {
+    .button-main {
+        width: 100%;
+
+    }
+}
+
+.txtSettings , .telSettings {
+    width: 100%;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+th {
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 10px;
+}
+td {
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+.tel_ausgabe {
+    color: green;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
