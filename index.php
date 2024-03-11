@@ -29,7 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <meta name="icon" href="assets/favicon.ico">
 <link rel="stylesheet" href="style.css">
 
-
 </head>
 <body class="bluebackground">
 

@@ -39,8 +39,12 @@
 <body>
 
 <main>
-<a href="index.php">Zurück</a>
+<button onclick="window.location.href='index.php'">Zurück</button>
+
     <h2>Benutzerverwaltung</h2>
+
+    <div class="table-container">
+
     <table>
         <thead>
             <tr>
@@ -48,8 +52,8 @@
                 <th>Name</th>
                 <th>Ziel</th>
                 <th>Torziel</th>
-                <th>SAVE</th>
-                <th>DEL</th>
+                <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -126,6 +130,10 @@
             ?>
         </tbody>
     </table>
+
+    </div>
+
+
 </main>
 
 
